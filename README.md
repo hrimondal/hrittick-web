@@ -1,16 +1,36 @@
-# Hrittick's Web
 
-> [Visit here](https://hrittick,vercel.app/) 
+![image](https://placehold.co/1200x630/000000/ffffff.png?text=hrittick.)
+![image](https://hrimondal.vercel.app/social.png)
 
-![hrit-img](https://placehold.co/1200x630/000000/ffffff.png?text=hrittick.)
+Welcome to the repository for my personal website!  
+
+This website is developed with the help of [Google AI Studio](https://aistudio.google.com/), and the design is inspired by [chronark.com](https://chronark.com). It is built with [TypeScript](https://www.typescriptlang.org/) and [HTML](https://en.wikipedia.org/wiki/HTML) and deployed with [Vercel](https://vercel.com/).
+
+**[View Web](https://hrittick,vercel.app/)**
 
 ## Run Locally
 
 **Prerequisites:**  Node.js
 
+Clone:
+```sh-session
+git clone https://github.com/chronark/chronark.com.git
+cd chronark.com
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+
+Install dependencies:
+```sh-session
+npm install
+```
+
+Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+
+Run the app:
+```sh-session
+npm run dev
+```
+---
+
+and   
+#### THANKS.
