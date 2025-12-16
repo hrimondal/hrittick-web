@@ -13,8 +13,8 @@ This website is developed with the help of [Google AI Studio](https://aistudio.g
 
 Clone:
 ```sh-session
-git clone https://github.com/chronark/chronark.com.git
-cd chronark.com
+git clone https://github.com/hrittm/hrittick-web.git
+cd hrittick-web
 ```
 
 
