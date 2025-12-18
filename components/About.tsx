@@ -28,15 +28,15 @@ const About: React.FC = () => {
           </h2>
           
           <div className="space-y-6 text-base md:text-lg text-gray-400 font-light leading-relaxed">
-            <p>
-              I'm a student passionate about problem solving that blend <span className="text-white font-medium">mathematics</span> and <span className="text-white font-medium">computer science</span>.
+            <p> 
+              I'm a high school student passionate about problem solving that blend <span className="text-white font-medium">mathematics</span> and <span className="text-white font-medium">computer science</span>.
             </p>
             <p>
               I am a fan of the splendid elegence of math and CS. I want to leverage this synergy to build impactful software that can make a difference. 
               I desire to continuously acheive greater application of computer as an artistic instrument. Demystifying artistic endeavors provides immense joy and satisfaction.
             </p>
             <p>
-              When I'm not coding or studying, you can find me exploring new ideas, texting with chatmate, or sitting lonely.
+              When I'm not coding or studying, you can find me exploring the nature, texting with chatmate, or sitting lonely.
             </p>
           </div>
 
