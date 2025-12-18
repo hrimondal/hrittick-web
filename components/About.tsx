@@ -33,7 +33,7 @@ const About: React.FC = () => {
             </p>
             <p>
               I am a fan of the splendid elegance of math and CS. I want to leverage this synergy to build impactful software that can make a difference. 
-              I desire to continuously acheive greater application of computer as an artistic instrument. Demystifying artistic endeavors provides immense joy and satisfaction.
+              I desire to continuously achieve greater application of computer as an artistic instrument. Demystifying artistic endeavors provides immense joy and satisfaction.
             </p>
             <p>
               When I'm not coding or studying, you can find me exploring the nature, texting with my chatmate, or fighting with boredom and loneliness.
