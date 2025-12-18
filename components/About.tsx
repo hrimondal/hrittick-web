@@ -36,7 +36,7 @@ const About: React.FC = () => {
               I desire to continuously acheive greater application of computer as an artistic instrument. Demystifying artistic endeavors provides immense joy and satisfaction.
             </p>
             <p>
-              When I'm not coding or studying, you can find me exploring the nature, texting with chatmate, or sitting lonely.
+              When I'm not coding or studying, you can find me exploring the nature, texting with my chatmate, or fighting with boredom and loneliness.
             </p>
           </div>
 
