@@ -29,7 +29,7 @@ const About: React.FC = () => {
           
           <div className="space-y-6 text-base md:text-lg text-gray-400 font-light leading-relaxed">
             <p> 
-              I'm a high school student passionate about problem solving that blend <span className="text-white font-medium">mathematics</span> and <span className="text-white font-medium">computer science</span>.
+              I'm a high school student passionate about problem solving that blends <span className="text-white font-medium">mathematics</span> and <span className="text-white font-medium">computer science</span>.
             </p>
             <p>
               I am a fan of the splendid elegance of math and CS. I want to leverage this synergy to build impactful software that can make a difference. 
