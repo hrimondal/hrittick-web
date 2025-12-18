@@ -31,11 +31,11 @@ const About: React.FC = () => {
             <p> 
               I'm a high school student passionate about problem solving that blends <span className="text-white font-medium">mathematics</span> and <span className="text-white font-medium">computer science</span>.
             </p>
-            <p>
-              I am a fan of the splendid elegance of math and CS. I want to leverage this synergy to build impactful software that can make a difference. 
+            <p> 
+              I'm a fan of the splendid elegance of math and CS. I want to leverage this synergy to build impactful software that can make a difference. 
               I desire to continuously achieve greater application of computer as an artistic instrument. Demystifying artistic endeavors provides immense joy and satisfaction.
             </p>
-            <p>
+            <p> 
               When I'm not coding or studying, you can find me exploring the nature, texting with my chatmate, or fighting with boredom and loneliness.
             </p>
           </div>
