@@ -3,7 +3,7 @@
 
 _Yoo!!_ The repository is for my web! 🕸️ :shipit:
 
-This website is developed with the help of [Google AI Studio](https://aistudio.google.com/), and the design is inspired by [chronark.com](https://chronark.com). It is built with [TypeScript](https://www.typescriptlang.org/) and [HTML](https://en.wikipedia.org/wiki/HTML) and deployed with [Vercel](https://vercel.com/).
+This website is developed with the help of [Google AI Studio](https://aistudio.google.com/), and the design is inspired by [chronark.com](https://chronark.com). It is built with [TypeScript](https://www.typescriptlang.org/) and deployed with [Vercel](https://vercel.com/).
 
 **[📌 View Web](https://hrittick.vercel.app/)** 
 
