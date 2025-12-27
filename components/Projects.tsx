@@ -7,32 +7,10 @@ const Projects: React.FC = () => {
     {
       title: "hrittick-web",
       description: "A personal portfolio website built with React and TypeScript, featuring custom animations and a dark mode toggle. Optimized for performance and accessibility.",
-      tech: ["React", "TypeScript", "WASM", "Tailwind"],
+      tech: ["React", "TypeScript"],
       githubUrl: "https://github.com/hrittm/hrittick-web",
       liveUrl: "https://hrittm.vercel.app",
       isFeatured: true
-    },
-    {
-      title: "Aura Intelligence",
-      description: "Real-time emotional analysis engine using computer vision to adjust UI/UX based on user expressions. Implemented with TensorFlow.js.",
-      tech: ["Python", "TensorFlow", "React", "FastAPI"],
-      githubUrl: "https://github.com",
-      isFeatured: false
-    },
-    {
-      title: "Prism Protocol",
-      description: "A decentralized identity management system focusing on privacy-preserving authentication using zero-knowledge proofs.",
-      tech: ["Solidity", "Next.js", "Ethers.js", "Rust"],
-      githubUrl: "https://github.com",
-      liveUrl: "https://example.com",
-      isFeatured: false
-    },
-    {
-      title: "Synth Components",
-      description: "An ultra-minimalist component library for high-performance dashboards, focusing on zero-runtime CSS and maximum accessibility.",
-      tech: ["Vanilla JS", "Stitches", "Radix UI"],
-      githubUrl: "https://github.com",
-      isFeatured: false
     }
   ];
 
