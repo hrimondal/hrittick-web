@@ -11,6 +11,28 @@ const Projects: React.FC = () => {
       githubUrl: "https://github.com/hrittm/hrittick-web",
       liveUrl: "https://hrittm.vercel.app",
       isFeatured: true
+    },
+    {
+      title: "EdVault",
+      description: "[ON PROGRESS] An AI-powered educational platform that personalizes learning experiences using machine learning algorithms to adapt content based on student performance and preferences.",
+      tech: ["Python", "Typescript", "React", "FastAPI", "TensorFlow"],
+      githubUrl: "https://github.com",
+      isFeatured: false
+    },
+    {
+      title: "Dotfiles",
+      description: "[ON PROGRESS] A comprehensive collection of configuration files and scripts to set up a personalized development environment across multiple operating systems, focusing on productivity and efficiency.",
+      tech: ["Shell", "Vim", "Tmux", "Git", "Zsh", "Lua", "Fish"],
+      githubUrl: "https://github.com/hrittm/dotfiles",
+      liveUrl: "https://example.com",
+      isFeatured: false
+    },
+    {
+      title: "// Coming Soon",
+      description: "A new project that is currently under development. Stay tuned for more details!",
+      tech: ["Details Coming Soon"  ],
+      githubUrl: "#",
+      isFeatured: false
     }
   ];
 
