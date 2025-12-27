@@ -14,10 +14,11 @@ const Projects: React.FC = () => {
     },
     {
       title: "EdVault",
-      description: "[ON PROGRESS] An AI-powered educational platform that personalizes learning experiences using machine learning algorithms to adapt content based on student performance and preferences.",
+      description: "[ON PROGRESS] An open-source educational platform that leverages AI to provide personalized learning experiences, interactive content, and real-time feedback for students and educators.",
       tech: ["Python", "Typescript", "React", "FastAPI", "TensorFlow"],
       githubUrl: "https://github.com/hrittm/edvault",
-      isFeatured: false
+      liveUrl: "https://hrittm.github.io/edvault",
+      isFeatured: true
     },
     {
       title: "Dotfiles",
