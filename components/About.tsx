@@ -7,14 +7,20 @@ const About: React.FC = () => {
     "CSS",
     "HTML",
     "TypeScript",
-    "React",
-    "JavaScript",
     "Vercel",
     "Git",
-    "Linux",
+    "Arch Linux",
+    "Hyprland",
+    "Tmux",
     "Bash",
     "SQL",
     "AWS",
+    "Lua",
+    "Vim",
+    "Fish",
+    "TOML",
+    "JSON",
+    "Markdown"
   ];
 
   return (
@@ -32,19 +38,19 @@ const About: React.FC = () => {
           
           <div className="space-y-6 text-base md:text-lg text-gray-400 font-light leading-relaxed">
             <p> 
-              I'm a high school student passionate about problem solving that blends <span className="text-white font-medium">mathematics</span> and <span className="text-white font-medium">computer science</span>.
+              I'm a higher secondary student passionate about problem solving that blends <span className="text-white font-medium">mathematics</span> and <span className="text-white font-medium">computer science</span>.
             </p>
             <p> 
               I'm a fan of the splendid elegance of math and CS. I want to leverage this synergy to build impactful software that can make a difference. 
               I desire to continuously achieve greater application of computer as an artistic instrument. Demystifying artistic endeavors provides immense joy and satisfaction.
             </p>
             <p> 
-              When I'm not coding or studying, you can find me exploring the nature, texting with my chatmate, or fighting with boredom and loneliness.
+              When I'm not coding or studying, you can find me exploring the nature, texting with my friends, or fighting with boredom and loneliness.
             </p>
           </div>
 
           <div className="pt-4">
-             <a href="mailto:thathrimondal@gmail.com" className="inline-flex items-center text-white border-b border-white pb-1 hover:opacity-70 transition-opacity group">
+             <a href="#" onClick={(e) => { window.location.href = 'mailto:' + 'thathrimondal' + '@' + 'gmail.com'; e.preventDefault(); }} className="inline-flex items-center text-white border-b border-white pb-1 hover:opacity-70 transition-opacity group">
                 Let's Connect
                 <svg className="ml-2 w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
              </a>
