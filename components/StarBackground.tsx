@@ -15,8 +15,12 @@ const StarBackground: React.FC = () => {
     let stars: Star[] = [];
 
     const resizeCanvas = () => {
-      canvas.width = window.innerWidth;
-      canvas.height = window.innerHeight;
+      const dpr = window.devicePixelRatio || 1;
+      canvas.width = window.innerWidth * dpr;
+      canvas.height = window.innerHeight * dpr;
+      canvas.style.width = `${window.innerWidth}px`;
+      canvas.style.height = `${window.innerHeight}px`;
+      ctx.scale(dpr, dpr);
       initStars();
     };
 
@@ -26,8 +30,8 @@ const StarBackground: React.FC = () => {
       
       for (let i = 0; i < numStars; i++) {
         stars.push({
-          x: Math.random() * canvas.width,
-          y: Math.random() * canvas.height,
+          x: Math.random() * window.innerWidth,
+          y: Math.random() * window.innerHeight,
           radius: Math.random() * 1.5,
           alpha: Math.random(),
           dx: (Math.random() - 0.5) * 0.2, // Very slow horizontal drift
@@ -37,11 +41,11 @@ const StarBackground: React.FC = () => {
     };
 
     const draw = () => {
-      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.clearRect(0, 0, window.innerWidth, window.innerHeight);
       
       // Draw background
       ctx.fillStyle = '#050505'; // Very deep charcoal/black
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
+      ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
 
       stars.forEach(star => {
         ctx.beginPath();
@@ -59,10 +63,10 @@ const StarBackground: React.FC = () => {
         if (star.alpha > 0.8) star.alpha = 0.8;
 
         // Wrap around screen
-        if (star.x < 0) star.x = canvas.width;
-        if (star.x > canvas.width) star.x = 0;
-        if (star.y < 0) star.y = canvas.height;
-        if (star.y > canvas.height) star.y = 0;
+        if (star.x < 0) star.x = window.innerWidth;
+        if (star.x > window.innerWidth) star.x = 0;
+        if (star.y < 0) star.y = window.innerHeight;
+        if (star.y > window.innerHeight) star.y = 0;
       });
 
       animationFrameId = requestAnimationFrame(draw);

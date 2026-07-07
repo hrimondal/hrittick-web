@@ -11,3 +11,12 @@ export interface HeroProps {
   title: string;
   subtitle: string;
 }
+
+export interface Project {
+  title: string;
+  description: string;
+  tech: string[];
+  githubUrl: string;
+  liveUrl?: string;
+  isFeatured: boolean;
+}

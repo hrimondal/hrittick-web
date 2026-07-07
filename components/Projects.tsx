@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
     {
       title: "dotfiles",
       description: "[IN PROGRESS] A comprehensive collection of configuration files and scripts to set up a personalized development environment across multiple operating systems, focusing on productivity and efficiency.",
-      tech: ["Shell", "Vim", "Tmux", "Git", "Zsh", "Hypr", "Fish", "TOML", "JSON"],
+      tech: ["Shell", "Vim", "Tmux", "Git", "Bash", "Hypr", "Fish", "TOML", "JSON"],
       githubUrl: "https://github.com/hrittm/dotfiles",
       isFeatured: true
     },
