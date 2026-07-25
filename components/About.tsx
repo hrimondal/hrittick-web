@@ -28,7 +28,7 @@ const About: React.FC = () => {
       id="about" 
       className="relative z-10 min-h-screen flex items-center justify-center px-6 py-24 md:px-12 lg:px-24 max-w-7xl mx-auto"
     >
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in-up delay-300 opacity-0" style={{ animationFillMode: 'forwards' }}>
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center animate-fade-in-up animate-delay-300 opacity-0" style={{ animationFillMode: 'forwards' }}>
         
         {/* Left Column: Bio */}
         <div className="space-y-8">

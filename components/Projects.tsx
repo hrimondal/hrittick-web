@@ -42,7 +42,7 @@ const Projects: React.FC = () => {
       id="projects" 
       className="relative z-10 min-h-screen px-6 py-24 md:px-12 lg:px-24 max-w-7xl mx-auto"
     >
-      <div className="space-y-12 animate-fade-in-up delay-300 opacity-0" style={{ animationFillMode: 'forwards' }}>
+      <div className="space-y-12 animate-fade-in-up animate-delay-300 opacity-0" style={{ animationFillMode: 'forwards' }}>
         <div className="space-y-4">
           <h2 className="text-4xl md:text-6xl font-bold text-white tracking-tighter">
             Selected Works.
