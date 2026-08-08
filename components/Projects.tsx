@@ -20,11 +20,11 @@ const Projects: React.FC = () => {
       isFeatured: true
     },
     {
-      title: "edvault",
-      description: "[IN PROGRESS] An open-source educational platform that leverages AI to provide personalized learning experiences, interactive content, and real-time feedback for students and educators.",
-      tech: ["TypeScript", "React"],
-      githubUrl: "https://github.com/hrittm/edvault",
-      liveUrl: "https://hrittm.github.io/edvault",
+      title: "nico-bot",
+      description: "A Discord bot that provides various utilities and AI-powered features for STEM communities, including chat interactions, math problem solving, and educational resources.",
+      tech: ["Python", "Discord.py", "Gemini", "WolframAlpha", "Render", "UptimeRobot"],
+      githubUrl: "https://github.com/hrittm/nico-bot",
+      liveUrl: "https://discord.gg/sp6eXC5BXr",
       isFeatured: false
     },
     {
@@ -48,7 +48,7 @@ const Projects: React.FC = () => {
             Selected Works.
           </h2>
           <p className="text-gray-500 max-w-xl text-lg font-light">
-            A collection of experiments, side projects, and professional work focusing on performance and user experience.
+            A collection of experiments, side projects, and personal work focusing on performance and user experience.
           </p>
         </div>
 

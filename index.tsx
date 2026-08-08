@@ -1,5 +1,7 @@
 import React from 'react';
+// @ts-ignore
 import ReactDOM from 'react-dom/client';
+// @ts-ignore
 import './index.css';
 import App from './App';
 
