@@ -34,7 +34,7 @@ const Footer: React.FC = () => {
             <circle cx="4" cy="4" r="2"></circle>
           </SocialLink>
 
-          <SocialLink href="#" onClick={(e) => { window.location.href = 'mailto:' + 'thathrimondal' + '@' + 'gmail.com'; e.preventDefault(); }} label="Email">
+          <SocialLink href="#" target="_self" onClick={(e) => { window.location.href = 'mailto:' + 'thathrimondal' + '@' + 'gmail.com'; e.preventDefault(); }} label="Email">
             <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
             <polyline points="22,6 12,13 2,6"></polyline>
           </SocialLink>
@@ -56,14 +56,15 @@ interface SocialLinkProps {
   children: React.ReactNode;
   label: string;
   onClick?: (e: React.MouseEvent<HTMLAnchorElement>) => void;
+  target?: string;
 }
 
-const SocialLink: React.FC<SocialLinkProps> = ({ href, children, label, onClick }) => (
+const SocialLink: React.FC<SocialLinkProps> = ({ href, children, label, onClick, target = "_blank" }) => (
   <a
     href={href}
     onClick={onClick}
-    target="_blank"
-    rel="noopener noreferrer"
+    target={target}
+    rel={target === "_blank" ? "noopener noreferrer" : undefined}
     aria-label={label}
     className="text-gray-500 hover:text-white transition-all duration-300 transform hover:scale-110 hover:-translate-y-1"
   >
